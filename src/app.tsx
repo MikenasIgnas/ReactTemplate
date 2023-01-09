@@ -1,11 +1,8 @@
 /* eslint-disable react/jsx-no-bind */
 import React from 'react';
-import Title from './components/Title';
+import Timers from './Timers';
 
-const App = () => {
-  console.log('Works');
-  return (
-    <Title />
+const App = () => (
+  <Timers />
   );
-};
 export default App;
