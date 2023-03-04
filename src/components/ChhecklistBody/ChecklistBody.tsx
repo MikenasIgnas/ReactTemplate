@@ -12,7 +12,6 @@ import ProblemsInArea from './ProblemsInArea/ProblemsInArea';
  };
 const ChecklistBody = ({ currentPage }:ChecklistBodyProps) => {
  const dutyInArea = useAppSelector((state) => state.fetchedData.ToDo.filter((todo) => currentPage === todo.areasId));
- console.log(dutyInArea);
 
     return (
 
